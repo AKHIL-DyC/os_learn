@@ -6,7 +6,7 @@ struct frame{
     int order;
 }f[fsize];
 int hit=0;
-int miss=0;
+int miss=3;
 int order=2;
 int pageinframe(int p){
     int flag=0;
